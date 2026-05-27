@@ -27,7 +27,7 @@ It is not a clinical product. See [Limitations](#limitations).
 ## Demo
 
 ```bash
-git clone https://github.com/<your-handle>/clinical-triage-classifier
+git clone https://github.com/Cyberpunk379/clinical-triage-classifier
 cd clinical-triage-classifier
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -36,7 +36,7 @@ streamlit run app.py
 
 Paste a clinical note (or pick one of the six bundled examples spanning all three tiers) and read off the urgency tier, extracted symptom categories, and per-class confidence. The sidebar selector lets you swap between models live.
 
-Hosted version: [HuggingFace Spaces link — fill in once deployed]
+Hosted version: https://huggingface.co/spaces/Osafobz/clinical-triage-classifier
 
 ## Approach
 
